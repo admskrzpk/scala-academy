@@ -298,7 +298,6 @@ Building block of modern software projects
 
 1. 1, 2, 3, 4, 5, 6
 
-# Day 5 (Mon)
 None - jedna z dwoch wartosci obiektu monadycznego oznacza nic nie zostalo zwrocene.
 na null nic nie mozna wykonac.
 Option [T] - oznacza ze option nie jest typem. moze byc kimkolwiek.
