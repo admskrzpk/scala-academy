@@ -298,3 +298,48 @@ Building block of modern software projects
 
 1. 1, 2, 3, 4, 5, 6
 
+# Day 5 (Mon)
+None - jedna z dwoch wartosci obiektu monadycznego oznacza nic nie zostalo zwrocene.
+na null nic nie mozna wykonac.
+Option [T] - oznacza ze option nie jest typem. moze byc kimkolwiek.
+type generator (w javie Generic Type)
+kazda klas aktora napiszemy jest typem.
+Option[Char]
+class X
+Option[X]
+
+sealed (zapieczetowane) - nie mozna rozszerzac klasy
+abstract - klasa nigdy nie moze byc new cos tam. klasa ktorej instancji nie mozemy utworzyc. trzeba napisac cos konkretnego. 
+
+Represents optional values. Instances of Option are either an instance of scala.Some or the object None.
+none = jedna z dwoch wartosci typu option
+
+none to co co juz istnieje, 
+object jest instancja danej klasy
+
+rocket operator =>
+
+immutable
+colekcje itp - w javie moga sie zmieniac w scali sa niezmiene raz utworzony.
+
+w tle nie zachodzi kopiowanie ale wyglada jakby bylo.
+przy dodaniu jednego elementu do 100 sa dowiazywane z poprzedniej kolekcji. structural sharing.
+
+ogarnac scaladoc o ktorych mowilismy (stringOps wczesniej).
+praca domowa https://www.scala-lang.org/api/2.13.8/scala/collection/immutable/index.html
+
+array, list, map, set, other itp to nie typy tylko generatory typow. musi byc zdefiniowany typ Array [Typ]
+scala collection - building block of modern software projects
+
+iterable - elementy ktory mozesz odwiedzac wielkrotnie
+generator typow 
+extends struktura pozwala na odwiedzenie wszysktich elementow raz conajmniej
+ops - dodatki
+with - 
+
+obiekty - wartosci typow.
+jak jest trait lub klasa abstrakcyjna nie mozna tworzyc new. trzeba object o tej samej nazwie.
+
+99 przykladow
+
+
